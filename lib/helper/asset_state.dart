@@ -1,0 +1,4 @@
+enum StateType {
+  assets,
+  network,
+}
