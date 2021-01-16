@@ -1,6 +1,6 @@
 import 'package:cyborgs/model/product_model.dart';
 import 'package:cyborgs/provider/product_provider.dart';
-import 'file:///D:/projects/cyborgs/lib/classes/product/product_operation.dart';
+import 'package:cyborgs/use_cases/product/product_operation.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';

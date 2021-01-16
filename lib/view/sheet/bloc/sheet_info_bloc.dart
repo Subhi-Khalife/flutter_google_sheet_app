@@ -6,13 +6,13 @@ import 'package:cyborgs/api/product/get_product_api.dart';
 import 'package:cyborgs/api/product/insert_product_api.dart';
 import 'package:cyborgs/model/product_model.dart';
 import 'package:cyborgs/provider/product_provider.dart';
+import 'package:cyborgs/use_cases/product/get_new_product_detail.dart';
+import 'package:cyborgs/use_cases/product/product_operation.dart';
 import 'package:cyborgs/widget/loading_dialog.dart';
-import 'file:///D:/projects/cyborgs/lib/classes/product/product_operation.dart';
 import 'package:cyborgs/widget/show_message.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:meta/meta.dart';
 import 'package:provider/provider.dart';
-import 'file:///D:/projects/cyborgs/lib/classes/product/get_new_product_detail.dart';
 part 'sheet_info_event.dart';
 part 'sheet_info_state.dart';
 
